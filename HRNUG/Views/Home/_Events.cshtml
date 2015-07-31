@@ -1,0 +1,67 @@
+﻿@model HRNUG.ViewModels.HomeViewModel
+<section class="padding-5px" id="events">
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Upcoming Events</h2>
+                @if (Model.Events != null && Model.Events.Any())
+                {
+                    foreach (var ev in Model.Events)
+                    {
+                        <div class="event">
+                            <h4>@ev.Title</h4>
+                            <p>
+                                @ev.DateTime.ToString("ddd, MMM d h:mm tt")
+                                <a class="btn btn-sm btn-success pull-right" href="@ev.Link" target="_blank">RSVP</a>
+                            </p>
+                        </div>
+                    }
+                }
+                else if (!String.IsNullOrEmpty(Model.Error))
+                {
+                    <p>@Model.Error</p>
+                }
+                else
+                {
+                    <p>There are no events currently scheduled...</p>
+                }
+                <p class="text-center margin-top">
+                    We meet the <span class="bold">2nd Tuesday</span> of every month at <a href="http://www.infotectraining.com/" target="_blank">Infotec</a>.<br />
+                    <br />
+                    100 Constitution Drive<br />
+                    Virginia Beach, VA 23462<br />
+                </p>
+                <div class="text-center">
+                    <a href="https://www.google.com/maps/place/100+Constitution+Dr,+Virginia+Beach,+VA+23462" target="_blank"><img src="~/Images/Infotec-Map.png" alt="Infotec Map" /></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Stay in Touch</h2>
+                <a href="http://eepurl.com/zdLB" class="btn btn-primary" target="_blank">Subscribe to our Mailing List &raquo;</a>
+                <a href="http://eepurl.com/i73Wj" class="btn btn-primary" target="_blank">Subscribe to our Jobs List &raquo;</a>
+                <div id="slack">
+                    <h4>Have You Heard of Slack?</h4>
+                    <p>
+                        Slack is a great way to chat real-time with local developers in various chat rooms. Think of IRC on steroids :-)
+                    </p>
+                    <a href="http://757dev.org/" target="_blank" title="Slack" class="btn btn-warning">Join the 757 Dev Slack!</a>
+                </div>
+                <div id="twitterWidget">
+                    <!-- Twitter Widget -->
+                    <a class="twitter-timeline" href="https://twitter.com/hrnug" data-widget-id="624314999394201600">Tweets by @@hrnug</a>
+                    <script>
+                        !function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

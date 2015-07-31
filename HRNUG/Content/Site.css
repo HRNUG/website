@@ -1,0 +1,123 @@
+﻿/* Padding for NavBar overlay */
+body {
+    font-family: verdana, arial, sans-serif;
+    font-size: 12pt;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 5px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.blue {
+    color: rgb(51, 122, 183);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.event {
+    background-color: #EEEEEE;
+    padding: 5px;
+}
+
+.icon-bar {
+    background-color: #000000;
+}
+
+.sponsorLogo {
+    width: 100%;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.nav > li > .hrnug-nav-image-a {
+    padding: 10px 15px;
+}
+
+.nav > li > .hrnug-nav-image-a > img {
+    height: 30px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    height: 40px;
+}
+
+.padding-5px {
+    padding: 5px;
+}
+
+.yellow {
+    color: #fbff83;
+}
+
+/* ID Selectors */
+#banner {
+    background-image: url("/Images/Meeting-Pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    text-align: center;
+}
+
+/* Anything bigger than mobile */
+@media (min-width:641px) {
+
+    #banner {
+        min-height: 300px;
+    }
+
+    h1 {
+        margin: 20px;
+    }
+}
+
+#info {
+    background-color: #337ab7;
+    color: #FFFFFF;
+}
+
+#slack {
+    margin: 20px;
+}
+
+#whySponsor {
+    background-color: #fbff83;
+}
+
+#twitterWidget {
+    margin-top: 10px;
+}
