@@ -133,6 +133,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <None Include="Properties\PublishProfiles\1582-3259.el-alt.com - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\1582-3259.el-alt.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Images\GitHub-Mark-32px.png" />
     <Content Include="Images\HRNUG-Logo.png" />
