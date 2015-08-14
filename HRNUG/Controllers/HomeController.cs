@@ -59,9 +59,10 @@ namespace HRNUG.Controllers
                             title = title.Split(new[] {"::"}, StringSplitOptions.None)[1].Trim();
 
                         // Convert from epoc time using milliseconds sent from API
-                        var time =
-                            new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddMilliseconds((double) result.time)
-                                .ToLocalTime();
+                        var utcDateTime =
+                            new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddMilliseconds((double) result.time);
+                        var time = TimeZoneInfo.ConvertTimeFromUtc(utcDateTime,
+                            TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time"));
 
                         events.Add(new Event()
                         {
