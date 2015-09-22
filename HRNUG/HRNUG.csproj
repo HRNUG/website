@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -153,7 +154,7 @@
     <Content Include="Images\Sponsors\NCover-Logo.jpeg" />
     <Content Include="Images\Sponsors\Nevron-Logo.jpeg" />
     <Content Include="Images\Sponsors\OReilly-Logo.jpeg" />
-    <Content Include="Images\Sponsors\PluralSight-Logo.jpeg" />
+    <Content Include="Images\Sponsors\PluralSight-Logo.png" />
     <Content Include="Images\Sponsors\Syncfusion-Logo.jpeg" />
     <Content Include="Images\Sponsors\TEK-Logo.jpg" />
     <Content Include="Images\Sponsors\Telerik-Logo.jpeg" />
