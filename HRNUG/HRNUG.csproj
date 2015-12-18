@@ -144,7 +144,9 @@
     <Content Include="Images\Meeting-Pic.jpg" />
     <Content Include="Images\Meetup-Logo.png" />
     <Content Include="Images\Slack-Logo.png" />
+    <Content Include="Images\Sponsors\Apex-Logo.png" />
     <Content Include="Images\Sponsors\Apress-Logo.jpeg" />
+    <Content Include="Images\Sponsors\CodeMag-Logo.png" />
     <Content Include="Images\Sponsors\CodeSmith-Logo.jpeg" />
     <Content Include="Images\Sponsors\CRT-Logo.jpg" />
     <Content Include="Images\Sponsors\Github-Logo.jpeg" />
@@ -154,6 +156,7 @@
     <Content Include="Images\Sponsors\NCover-Logo.jpeg" />
     <Content Include="Images\Sponsors\Nevron-Logo.jpeg" />
     <Content Include="Images\Sponsors\OReilly-Logo.jpeg" />
+    <Content Include="Images\Sponsors\PFS-Logo.jpg" />
     <Content Include="Images\Sponsors\PluralSight-Logo.png" />
     <Content Include="Images\Sponsors\Syncfusion-Logo.jpeg" />
     <Content Include="Images\Sponsors\TEK-Logo.jpg" />
