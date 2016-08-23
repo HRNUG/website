@@ -146,6 +146,7 @@
     <Content Include="Images\Slack-Logo.png" />
     <Content Include="Images\Sponsors\Apex-Logo.png" />
     <Content Include="Images\Sponsors\Apress-Logo.jpeg" />
+    <Content Include="Images\Sponsors\Aspose-Logo.jpg" />
     <Content Include="Images\Sponsors\CodeMag-Logo.png" />
     <Content Include="Images\Sponsors\CodeSmith-Logo.jpeg" />
     <Content Include="Images\Sponsors\CRT-Logo.jpg" />
@@ -161,6 +162,7 @@
     <Content Include="Images\Sponsors\Syncfusion-Logo.jpeg" />
     <Content Include="Images\Sponsors\TEK-Logo.jpg" />
     <Content Include="Images\Sponsors\Telerik-Logo.jpeg" />
+    <Content Include="Images\Sponsors\TimeMachine-Logo.png" />
     <Content Include="Images\Sponsors\UDig-Logo.jpg" />
     <Content Include="Images\Sponsors\Vaco-Logo.png" />
     <Content Include="Images\Sponsors\WintellectNow-Logo.jpeg" />
