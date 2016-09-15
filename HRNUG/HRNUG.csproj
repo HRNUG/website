@@ -150,6 +150,7 @@
     <Content Include="Images\Sponsors\CodeMag-Logo.png" />
     <Content Include="Images\Sponsors\CodeSmith-Logo.jpeg" />
     <Content Include="Images\Sponsors\CRT-Logo.jpg" />
+    <Content Include="Images\Sponsors\Devart-Logo.png" />
     <Content Include="Images\Sponsors\Github-Logo.jpeg" />
     <Content Include="Images\Sponsors\Infragistics-Logo.jpeg" />
     <Content Include="Images\Sponsors\JetBrains-Logo.jpeg" />
