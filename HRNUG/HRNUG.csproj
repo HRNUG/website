@@ -154,6 +154,7 @@
     <Content Include="Images\Sponsors\Devart-Logo.png" />
     <Content Include="Images\Sponsors\Github-Logo.jpeg" />
     <Content Include="Images\Sponsors\Infragistics-Logo.jpeg" />
+    <Content Include="Images\Sponsors\Issuetrak-Logo.png" />
     <Content Include="Images\Sponsors\JetBrains-Logo.jpeg" />
     <Content Include="Images\Sponsors\Marathon-Logo.png" />
     <Content Include="Images\Sponsors\NCover-Logo.jpeg" />
